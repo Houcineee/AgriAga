@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "Innovation en Agriculture et Eau",
+    "subtitle": "Rejoignez le Hackathon pour un Avenir Durable",
+    "description": "Rassembler les innovateurs, les développeurs et les acteurs du changement pour résoudre les défis critiques en agriculture et gestion de l'eau",
+    "cta": "Commencer",
+    "learnMore": "En Savoir Plus"
+  },
+  "features": {
+    "title": "Pourquoi Participer ?",
+    "innovation": {
+      "title": "Innovation",
+      "description": "Créez des solutions de pointe pour les défis agricoles et hydriques du monde réel"
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Travaillez avec des experts et des équipes d'horizons divers pour créer des projets impactants"
+    },
+    "impact": {
+      "title": "Impact",
+      "description": "Faites une différence tangible dans l'agriculture durable et la conservation de l'eau"
+    },
+    "prizes": {
+      "title": "Prix et Reconnaissance",
+      "description": "Gagnez des prix passionnants et soyez reconnu pour vos solutions innovantes"
+    }
+  },
+  "about": {
+    "title": "À Propos du Hackathon",
+    "description": "Notre hackathon se concentre sur les défis critiques en agriculture et gestion de l'eau. Nous rassemblons des personnes talentueuses pour créer des solutions innovantes et durables qui peuvent transformer notre approche de la sécurité alimentaire et de la conservation de l'eau.",
+    "mission": "Mission",
+    "missionText": "Favoriser l'innovation et la collaboration dans le développement de solutions durables pour les défis en agriculture et gestion de l'eau"
+  },
+  "contact": {
+    "title": "Participez",
+    "description": "Prêt à faire la différence ? Rejoignez-nous pour créer des solutions pour un avenir durable.",
+    "register": "S'inscrire Maintenant",
+    "contactUs": "Nous Contacter"
+  },
+  "footer": {
+    "copyright": "© 2025 Hackathon Agriculture et Eau. Tous droits réservés.",
+    "organizedBy": "Organisé avec passion pour la durabilité"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "Agriculture & Water Innovation",
+    "subtitle": "Join the Hackathon for a Sustainable Future",
+    "description": "Bringing together innovators, developers, and changemakers to solve critical challenges in agriculture and water management",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Why Participate?",
+    "innovation": {
+      "title": "Innovation",
+      "description": "Create cutting-edge solutions for real-world agricultural and water challenges"
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Work with experts and teams from diverse backgrounds to build impactful projects"
+    },
+    "impact": {
+      "title": "Impact",
+      "description": "Make a tangible difference in sustainable agriculture and water conservation"
+    },
+    "prizes": {
+      "title": "Prizes & Recognition",
+      "description": "Win exciting prizes and get recognized for your innovative solutions"
+    }
+  },
+  "about": {
+    "title": "About the Hackathon",
+    "description": "Our hackathon focuses on addressing critical challenges in agriculture and water management. We bring together talented individuals to create innovative, sustainable solutions that can transform how we approach food security and water conservation.",
+    "mission": "Mission",
+    "missionText": "To foster innovation and collaboration in developing sustainable solutions for agriculture and water management challenges"
+  },
+  "contact": {
+    "title": "Get Involved",
+    "description": "Ready to make a difference? Join us in creating solutions for a sustainable future.",
+    "register": "Register Now",
+    "contactUs": "Contact Us"
+  },
+  "footer": {
+    "copyright": "© 2025 Agriculture & Water Hackathon. All rights reserved.",
+    "organizedBy": "Organized with passion for sustainability"
+  }
+}
