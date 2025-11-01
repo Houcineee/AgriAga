@@ -6,6 +6,7 @@ import About from '@/components/sections/About';
 import Features from '@/components/sections/Features';
 import MobileApp from '@/components/sections/MobileApp';
 import Demo from '@/components/sections/Demo';
+import Contact from '@/components/sections/Contact';
 import Footer from '@/components/sections/Footer';
 
 export default function Home() {
@@ -29,7 +30,8 @@ export default function Home() {
         <Hero />
         <Features />
         <MobileApp />
-  <Demo />
+        <Demo />
+        <Contact />
       </main>
       <Footer />
 </div>

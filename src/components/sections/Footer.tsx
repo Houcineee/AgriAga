@@ -8,7 +8,7 @@ export default function Footer() {
   const isRTL = language === 'ar';
 
   return (
-    <footer id="contact" className="relative border-t border-border/40 bg-white dark:bg-neutral-950">
+    <footer className="relative border-t border-border/40 bg-white dark:bg-neutral-950">
       <div className="container mx-auto px-6 md:px-8">
         <div className="max-w-7xl mx-auto">
           
