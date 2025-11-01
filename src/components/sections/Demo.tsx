@@ -2,86 +2,78 @@
 
 import { useLanguage } from '@/i18n/LanguageContext';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Upload, Eye, Download, MapPin } from 'lucide-react';
+import { IconArrowRight, IconRocket } from '@tabler/icons-react';
+import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 export default function Demo() {
   const { t, language } = useLanguage();
   const isRTL = language === 'ar';
+  const { ref, isVisible } = useScrollAnimation();
 
   const handleDemoClick = () => {
     // Redirect to demo website - you can change this URL
-    window.open('https://demo.agriyaga.example.com', '_blank');
+    window.open('https://demo.agriaga.example.com', '_blank', 'noopener,noreferrer');
+  };
+
+  const handleGetStartedClick = () => {
+    const el = document.getElementById('contact');
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   return (
-    <section id="demo" className="py-20 px-4">
-      <div className="container mx-auto">
-        <div className="max-w-6xl mx-auto">
+    <section id="demo" className="py-24 px-4 relative overflow-hidden">
+      {/* Subtle background accent */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-emerald-400/10 via-teal-400/5 to-transparent rounded-full blur-3xl" />
+      </div>
+
+      <div ref={ref} className={`container mx-auto transition-all duration-1000 ${isVisible ? 'animate-on-scroll' : 'opacity-0'}`}>
+        <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className={`text-4xl md:text-5xl font-bold mb-6 text-foreground ${isRTL ? 'text-right' : ''}`}>
+            {/* Call to action label */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-emerald-500/10 border border-emerald-500/20">
+              <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+              <span className="text-sm font-medium text-emerald-700 dark:text-emerald-400">
+                {t.cta.title}
+              </span>
+            </div>
+
+            <h2 className={`text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground ${isRTL ? 'text-right' : 'text-center'}`}>
               {t.demo.title}
             </h2>
             
-            <p className={`text-xl text-muted-foreground mb-4 ${isRTL ? 'text-right' : ''}`}>
+            <p className={`text-xl md:text-2xl text-foreground/80 font-medium mb-4 ${isRTL ? 'text-right' : 'text-center'}`}>
               {t.demo.subtitle}
             </p>
             
-            <p className={`text-muted-foreground mb-8 max-w-3xl mx-auto ${isRTL ? 'text-right' : ''}`}>
+            <p className={`text-muted-foreground leading-relaxed md:text-lg mb-10 max-w-2xl mx-auto ${isRTL ? 'text-right' : 'text-center'}`}>
               {t.demo.description}
             </p>
 
-            <Button 
-              size="lg" 
-              onClick={handleDemoClick}
-              className="text-lg px-8 py-6"
-            >
-              {t.demo.button}
-              <ExternalLink className="ml-2" />
-            </Button>
-          </div>
+            {/* CTA Buttons */}
+            <div className={`flex flex-col sm:flex-row items-center justify-center gap-4 ${isRTL ? 'sm:flex-row-reverse' : ''}`}>
+              {/* Primary CTA: Get Started */}
+              <Button 
+                size="lg" 
+                onClick={handleGetStartedClick}
+                className="group text-base md:text-lg px-8 md:px-10 py-6 md:py-7 bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg shadow-emerald-600/30 hover:shadow-xl hover:shadow-emerald-600/40 transition-all duration-300 hover:-translate-y-0.5"
+              >
+                {t.cta.button}
+                <IconArrowRight className={`w-5 h-5 transition-transform group-hover:translate-x-1 ${isRTL ? 'rotate-180' : ''}`} />
+              </Button>
 
-          <div className="mt-16 bg-gradient-to-br from-primary/10 to-purple-500/10 rounded-2xl p-8 md:p-12">
-            <h3 className={`text-2xl font-bold mb-8 text-center text-foreground ${isRTL ? 'text-right' : ''}`}>
-              {t.demo.features}
-            </h3>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="flex items-start gap-4 p-6 bg-white rounded-xl">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Upload className="w-6 h-6 text-primary" />
-                </div>
-                <div className={isRTL ? 'text-right' : ''}>
-                  <p className="font-semibold text-foreground mb-1">{t.demo.demoFeature1}</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 p-6 bg-white rounded-xl">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Eye className="w-6 h-6 text-primary" />
-                </div>
-                <div className={isRTL ? 'text-right' : ''}>
-                  <p className="font-semibold text-foreground mb-1">{t.demo.demoFeature2}</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 p-6 bg-white rounded-xl">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Download className="w-6 h-6 text-primary" />
-                </div>
-                <div className={isRTL ? 'text-right' : ''}>
-                  <p className="font-semibold text-foreground mb-1">{t.demo.demoFeature3}</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 p-6 bg-white rounded-xl">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-primary" />
-                </div>
-                <div className={isRTL ? 'text-right' : ''}>
-                  <p className="font-semibold text-foreground mb-1">{t.demo.demoFeature4}</p>
-                </div>
-              </div>
+              {/* Secondary CTA: Launch Demo */}
+              <Button 
+                size="lg"
+                variant="outline"
+                onClick={handleDemoClick}
+                className="group text-base md:text-lg px-8 md:px-10 py-6 md:py-7 border-2 border-emerald-600/30 hover:border-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-950/30 transition-all duration-300"
+              >
+                <IconRocket className="w-5 h-5" />
+                {t.demo.button}
+              </Button>
             </div>
+
           </div>
         </div>
       </div>

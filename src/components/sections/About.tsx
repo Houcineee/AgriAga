@@ -1,14 +1,16 @@
 'use client';
 
 import { useLanguage } from '@/i18n/LanguageContext';
+import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 export default function About() {
   const { t, language } = useLanguage();
   const isRTL = language === 'ar';
+  const { ref, isVisible } = useScrollAnimation();
 
   return (
     <section id="about" className="py-20 px-4 bg-muted/30">
-      <div className="container mx-auto">
+      <div ref={ref} className={`container mx-auto transition-all duration-1000 ${isVisible ? 'animate-on-scroll' : 'opacity-0'}`}>
         <div className="max-w-4xl mx-auto">
           <h2 className={`text-4xl md:text-5xl font-bold mb-8 text-center text-foreground ${isRTL ? 'text-right' : ''}`}>
             {t.about.title}

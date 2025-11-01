@@ -9,10 +9,19 @@ export const translations = {
       contact: "Contact"
     },
     hero: {
+      badge: "Smart Orchard Management",
       title: "Smart Tree Inventory & Orchard Management",
       subtitle: "Optimize your agricultural operations with AI-powered tree counting and orchard monitoring for sustainable crop management",
       cta: "Try Demo",
-      ctaSecondary: "Get Mobile App"
+      ctaSecondary: "Get Mobile App",
+      analytics: "Realtime Analytics",
+      analyticsSubtitle: "Field metrics & health indicators",
+      stats: {
+        trees: "Trees",
+        health: "Health",
+        forecast: "Forecast",
+        reports: "Reports"
+      }
     },
     about: {
       title: "About AgriYaga",
@@ -67,7 +76,13 @@ export const translations = {
     },
     footer: {
       copyright: "All rights reserved.",
-      slogan: "Precision agriculture for sustainable farming"
+      slogan: "Precision agriculture for sustainable farming",
+      product: "Product",
+      company: "Company",
+      connect: "Connect",
+      contact: "Contact",
+      privacy: "Privacy Policy",
+      terms: "Terms of Service"
     }
   },
   fr: {
@@ -80,10 +95,19 @@ export const translations = {
       contact: "Contact"
     },
     hero: {
+      badge: "Gestion Intelligente des Vergers",
       title: "Inventaire Intelligent des Arbres & Gestion des Vergers",
       subtitle: "Optimisez vos opérations agricoles avec comptage d'arbres par IA et surveillance des vergers pour une gestion durable des cultures",
       cta: "Essayer la Démo",
-      ctaSecondary: "Obtenir l'Application"
+      ctaSecondary: "Obtenir l'Application",
+      analytics: "Analyses en Temps Réel",
+      analyticsSubtitle: "Métriques de terrain et indicateurs de santé",
+      stats: {
+        trees: "Arbres",
+        health: "Santé",
+        forecast: "Prévision",
+        reports: "Rapports"
+      }
     },
     about: {
       title: "À propos d'AgriYaga",
@@ -138,7 +162,13 @@ export const translations = {
     },
     footer: {
       copyright: "Tous droits réservés.",
-      slogan: "Agriculture de précision pour une agriculture durable"
+      slogan: "Agriculture de précision pour une agriculture durable",
+      product: "Produit",
+      company: "Entreprise",
+      connect: "Connexion",
+      contact: "Contact",
+      privacy: "Politique de Confidentialité",
+      terms: "Conditions d'Utilisation"
     }
   },
   ar: {
@@ -151,10 +181,19 @@ export const translations = {
       contact: "اتصل بنا"
     },
     hero: {
+      badge: "إدارة البساتين الذكية",
       title: "جرد ذكي للأشجار وإدارة البساتين",
       subtitle: "حسّن عملياتك الزراعية مع عد الأشجار بالذكاء الاصطناعي ومراقبة البساتين لإدارة مستدامة للمحاصيل",
       cta: "جرب العرض التوضيحي",
-      ctaSecondary: "احصل على التطبيق"
+      ctaSecondary: "احصل على التطبيق",
+      analytics: "التحليلات في الوقت الفعلي",
+      analyticsSubtitle: "مقاييس الحقل ومؤشرات الصحة",
+      stats: {
+        trees: "الأشجار",
+        health: "الصحة",
+        forecast: "التوقعات",
+        reports: "التقارير"
+      }
     },
     about: {
       title: "حول AgriYaga",
@@ -209,7 +248,13 @@ export const translations = {
     },
     footer: {
       copyright: "جميع الحقوق محفوظة.",
-      slogan: "الزراعة الدقيقة للزراعة المستدامة"
+      slogan: "الزراعة الدقيقة للزراعة المستدامة",
+      product: "المنتج",
+      company: "الشركة",
+      connect: "التواصل",
+      contact: "اتصل بنا",
+      privacy: "سياسة الخصوصية",
+      terms: "شروط الخدمة"
     }
   }
 };

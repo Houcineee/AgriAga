@@ -77,11 +77,12 @@ export default function Header() {
           },
         )}
       >
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-lg">🌳</span>
-          </div>
-          <span className="font-bold text-xl text-foreground">AgriYaga</span>
+        <div className="flex items-center gap-2 group">
+          <img 
+            src="/tom (1).png" 
+            alt="AgriAga Logo" 
+            className="h-26 w-26 object-contain transition-transform group-hover:scale-105"
+          />
         </div>
 
         <div className="hidden items-center gap-2 md:flex">
