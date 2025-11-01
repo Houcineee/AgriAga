@@ -3,8 +3,8 @@ import "./globals.css";
 import { LanguageProvider } from "@/i18n/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "AquaGrow - Water Solutions for Agriculture",
-  description: "Innovating water solutions for sustainable agriculture",
+  title: "TreeCount AI - AI-Powered Tree Counting for Agriculture",
+  description: "Transform your agricultural management with accurate, automated tree counting using advanced computer vision and AI technology",
 };
 
 export default function RootLayout({

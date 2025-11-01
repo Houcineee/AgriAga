@@ -18,9 +18,9 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">💧</span>
+              <span className="text-white font-bold text-lg">🌳</span>
             </div>
-            <span className="font-bold text-xl text-foreground">AquaGrow</span>
+            <span className="font-bold text-xl text-foreground">TreeCount AI</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
@@ -32,6 +32,12 @@ export default function Header() {
             </a>
             <a href="#features" className="text-foreground hover:text-primary transition-colors">
               {t.nav.features}
+            </a>
+            <a href="#mobile-app" className="text-foreground hover:text-primary transition-colors">
+              {t.nav.mobileApp}
+            </a>
+            <a href="#demo" className="text-foreground hover:text-primary transition-colors">
+              {t.nav.demo}
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
               {t.nav.contact}

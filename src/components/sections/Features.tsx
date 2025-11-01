@@ -1,7 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/i18n/LanguageContext';
-import { Droplet, Leaf, BarChart3, DollarSign } from 'lucide-react';
+import { Brain, Zap, FileText, Smartphone } from 'lucide-react';
 
 export default function Features() {
   const { t, language } = useLanguage();
@@ -9,28 +9,28 @@ export default function Features() {
 
   const features = [
     {
-      icon: Droplet,
+      icon: Brain,
       title: t.features.feature1.title,
       description: t.features.feature1.description,
       color: 'text-blue-500',
       bgColor: 'bg-blue-500/10',
     },
     {
-      icon: Leaf,
+      icon: Zap,
       title: t.features.feature2.title,
       description: t.features.feature2.description,
       color: 'text-green-500',
       bgColor: 'bg-green-500/10',
     },
     {
-      icon: BarChart3,
+      icon: FileText,
       title: t.features.feature3.title,
       description: t.features.feature3.description,
       color: 'text-purple-500',
       bgColor: 'bg-purple-500/10',
     },
     {
-      icon: DollarSign,
+      icon: Smartphone,
       title: t.features.feature4.title,
       description: t.features.feature4.description,
       color: 'text-amber-500',

@@ -21,21 +21,21 @@ export default function About() {
             
             <div className="mt-12 grid md:grid-cols-3 gap-6">
               <div className="text-center p-6 bg-primary/5 rounded-xl">
-                <div className="text-4xl mb-4">🌱</div>
-                <h3 className="font-semibold text-lg mb-2">Sustainable</h3>
-                <p className="text-sm text-muted-foreground">Eco-friendly solutions</p>
+                <div className="text-4xl mb-4">🤖</div>
+                <h3 className="font-semibold text-lg mb-2">AI-Powered</h3>
+                <p className="text-sm text-muted-foreground">Advanced computer vision</p>
               </div>
               
               <div className="text-center p-6 bg-primary/5 rounded-xl">
-                <div className="text-4xl mb-4">💡</div>
-                <h3 className="font-semibold text-lg mb-2">Innovative</h3>
-                <p className="text-sm text-muted-foreground">Cutting-edge technology</p>
+                <div className="text-4xl mb-4">⚡</div>
+                <h3 className="font-semibold text-lg mb-2">Fast & Accurate</h3>
+                <p className="text-sm text-muted-foreground">Results in seconds</p>
               </div>
               
               <div className="text-center p-6 bg-primary/5 rounded-xl">
-                <div className="text-4xl mb-4">📈</div>
-                <h3 className="font-semibold text-lg mb-2">Efficient</h3>
-                <p className="text-sm text-muted-foreground">Maximize productivity</p>
+                <div className="text-4xl mb-4">📊</div>
+                <h3 className="font-semibold text-lg mb-2">Detailed Analytics</h3>
+                <p className="text-sm text-muted-foreground">Comprehensive reports</p>
               </div>
             </div>
           </div>

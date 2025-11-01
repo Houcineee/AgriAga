@@ -4,46 +4,70 @@ export const translations = {
       home: "Home",
       about: "About",
       features: "Features",
+      mobileApp: "Mobile App",
+      demo: "Demo",
       contact: "Contact"
     },
     hero: {
-      title: "Innovating Water Solutions for Agriculture",
-      subtitle: "Transforming the future of sustainable farming through smart water management",
-      cta: "Learn More",
-      ctaSecondary: "Contact Us"
+      title: "AI-Powered Tree Counting for Precision Agriculture",
+      subtitle: "Transform your agricultural management with accurate, automated tree counting using advanced computer vision",
+      cta: "Try Demo",
+      ctaSecondary: "Download App"
     },
     about: {
-      title: "About Our Project",
-      description: "We are developing innovative solutions to address water challenges in agriculture. Our project focuses on sustainable water management practices that can help farmers optimize their water usage while maintaining or increasing crop yields."
+      title: "About TreeCount AI",
+      description: "We've developed an innovative AI-powered solution that revolutionizes how farmers and agricultural professionals count and manage trees. Using cutting-edge computer vision and machine learning, our platform delivers accurate tree counts in seconds, helping optimize resource allocation, monitor forest health, and improve agricultural planning."
     },
     features: {
       title: "Key Features",
-      subtitle: "Our comprehensive solution provides everything you need to revolutionize your agricultural water management",
+      subtitle: "Powerful technology to automate and enhance your tree management workflow",
       feature1: {
-        title: "Smart Water Management",
-        description: "Advanced technology to monitor and optimize water usage in real-time"
+        title: "AI-Powered Detection",
+        description: "Advanced computer vision algorithms accurately identify and count trees from aerial and ground imagery"
       },
       feature2: {
-        title: "Sustainable Solutions",
-        description: "Environmentally friendly approaches to agricultural water conservation"
+        title: "Real-Time Analysis",
+        description: "Get instant results with our fast processing engine that handles large-scale agricultural areas"
       },
       feature3: {
-        title: "Data-Driven Insights",
-        description: "Comprehensive analytics to help farmers make informed decisions"
+        title: "Detailed Reports",
+        description: "Comprehensive analytics with tree density maps, health indicators, and growth tracking"
       },
       feature4: {
-        title: "Cost Effective",
-        description: "Reduce water costs while improving agricultural productivity"
+        title: "Multi-Platform Access",
+        description: "Access your data anywhere with our web platform and mobile application"
       }
     },
+    mobileApp: {
+      title: "Mobile App for On-the-Go Counting",
+      subtitle: "Take TreeCount AI with you wherever you go",
+      description: "Our mobile application brings the power of AI tree counting to your smartphone. Capture images directly from your device, get instant counts, and sync your data seamlessly with the cloud.",
+      feature1: "📱 Capture images with your phone camera",
+      feature2: "🚀 Instant on-device processing",
+      feature3: "☁️ Cloud sync for all your data",
+      feature4: "📊 View reports and analytics on the go",
+      downloadButton: "Download for iOS & Android",
+      comingSoon: "Coming Soon"
+    },
+    demo: {
+      title: "Experience TreeCount AI in Action",
+      subtitle: "Try our interactive demo",
+      description: "See how our AI technology works with real agricultural data. Upload your own images or try our sample datasets to experience the accuracy and speed of TreeCount AI.",
+      button: "Launch Demo",
+      features: "What you can do in the demo:",
+      demoFeature1: "Upload aerial or ground-level images",
+      demoFeature2: "View AI-powered tree detection in real-time",
+      demoFeature3: "Download detailed count reports",
+      demoFeature4: "Explore different agricultural scenarios"
+    },
     cta: {
-      title: "Ready to Transform Your Agricultural Water Management?",
-      description: "Join us in revolutionizing sustainable farming practices",
+      title: "Ready to Revolutionize Your Tree Management?",
+      description: "Join hundreds of farmers and agricultural professionals using TreeCount AI",
       button: "Get Started"
     },
     footer: {
       copyright: "All rights reserved.",
-      slogan: "Innovating for a sustainable future"
+      slogan: "Precision agriculture through AI innovation"
     }
   },
   fr: {
@@ -51,46 +75,70 @@ export const translations = {
       home: "Accueil",
       about: "À propos",
       features: "Fonctionnalités",
+      mobileApp: "Application Mobile",
+      demo: "Démo",
       contact: "Contact"
     },
     hero: {
-      title: "Solutions d'eau innovantes pour l'agriculture",
-      subtitle: "Transformer l'avenir de l'agriculture durable grâce à une gestion intelligente de l'eau",
-      cta: "En savoir plus",
-      ctaSecondary: "Contactez-nous"
+      title: "Comptage d'Arbres par IA pour l'Agriculture de Précision",
+      subtitle: "Transformez votre gestion agricole avec un comptage d'arbres précis et automatisé grâce à la vision par ordinateur avancée",
+      cta: "Essayer la Démo",
+      ctaSecondary: "Télécharger l'App"
     },
     about: {
-      title: "À propos de notre projet",
-      description: "Nous développons des solutions innovantes pour relever les défis liés à l'eau dans l'agriculture. Notre projet se concentre sur des pratiques de gestion durable de l'eau qui peuvent aider les agriculteurs à optimiser leur utilisation de l'eau tout en maintenant ou en augmentant les rendements des cultures."
+      title: "À propos de TreeCount AI",
+      description: "Nous avons développé une solution innovante alimentée par l'IA qui révolutionne la façon dont les agriculteurs et les professionnels de l'agriculture comptent et gèrent les arbres. Utilisant la vision par ordinateur et l'apprentissage automatique de pointe, notre plateforme fournit des comptages d'arbres précis en quelques secondes, aidant à optimiser l'allocation des ressources, surveiller la santé des forêts et améliorer la planification agricole."
     },
     features: {
       title: "Caractéristiques principales",
-      subtitle: "Notre solution complète fournit tout ce dont vous avez besoin pour révolutionner votre gestion de l'eau agricole",
+      subtitle: "Technologie puissante pour automatiser et améliorer votre flux de travail de gestion des arbres",
       feature1: {
-        title: "Gestion intelligente de l'eau",
-        description: "Technologie avancée pour surveiller et optimiser l'utilisation de l'eau en temps réel"
+        title: "Détection par IA",
+        description: "Des algorithmes avancés de vision par ordinateur identifient et comptent avec précision les arbres à partir d'images aériennes et terrestres"
       },
       feature2: {
-        title: "Solutions durables",
-        description: "Approches respectueuses de l'environnement pour la conservation de l'eau agricole"
+        title: "Analyse en temps réel",
+        description: "Obtenez des résultats instantanés avec notre moteur de traitement rapide qui gère de vastes zones agricoles"
       },
       feature3: {
-        title: "Informations basées sur les données",
-        description: "Analyses complètes pour aider les agriculteurs à prendre des décisions éclairées"
+        title: "Rapports détaillés",
+        description: "Analyses complètes avec cartes de densité d'arbres, indicateurs de santé et suivi de croissance"
       },
       feature4: {
-        title: "Rentable",
-        description: "Réduire les coûts de l'eau tout en améliorant la productivité agricole"
+        title: "Accès multi-plateforme",
+        description: "Accédez à vos données partout avec notre plateforme web et notre application mobile"
       }
     },
+    mobileApp: {
+      title: "Application Mobile pour Compter en Déplacement",
+      subtitle: "Emportez TreeCount AI partout avec vous",
+      description: "Notre application mobile apporte la puissance du comptage d'arbres par IA à votre smartphone. Capturez des images directement depuis votre appareil, obtenez des comptages instantanés et synchronisez vos données de manière transparente avec le cloud.",
+      feature1: "📱 Capturez des images avec votre caméra",
+      feature2: "🚀 Traitement instantané sur l'appareil",
+      feature3: "☁️ Synchronisation cloud de toutes vos données",
+      feature4: "📊 Consultez rapports et analyses en déplacement",
+      downloadButton: "Télécharger pour iOS et Android",
+      comingSoon: "Bientôt disponible"
+    },
+    demo: {
+      title: "Découvrez TreeCount AI en Action",
+      subtitle: "Essayez notre démo interactive",
+      description: "Découvrez comment notre technologie IA fonctionne avec de vraies données agricoles. Téléchargez vos propres images ou essayez nos ensembles de données d'exemple pour découvrir la précision et la rapidité de TreeCount AI.",
+      button: "Lancer la Démo",
+      features: "Ce que vous pouvez faire dans la démo:",
+      demoFeature1: "Télécharger des images aériennes ou au sol",
+      demoFeature2: "Voir la détection d'arbres par IA en temps réel",
+      demoFeature3: "Télécharger des rapports de comptage détaillés",
+      demoFeature4: "Explorer différents scénarios agricoles"
+    },
     cta: {
-      title: "Prêt à transformer votre gestion de l'eau agricole?",
-      description: "Rejoignez-nous pour révolutionner les pratiques agricoles durables",
+      title: "Prêt à révolutionner votre gestion des arbres?",
+      description: "Rejoignez des centaines d'agriculteurs et de professionnels de l'agriculture utilisant TreeCount AI",
       button: "Commencer"
     },
     footer: {
       copyright: "Tous droits réservés.",
-      slogan: "Innover pour un avenir durable"
+      slogan: "Agriculture de précision par l'innovation IA"
     }
   },
   ar: {
@@ -98,46 +146,70 @@ export const translations = {
       home: "الرئيسية",
       about: "حول",
       features: "المميزات",
+      mobileApp: "تطبيق الجوال",
+      demo: "التجربة",
       contact: "اتصل بنا"
     },
     hero: {
-      title: "حلول مبتكرة للمياه في الزراعة",
-      subtitle: "تحويل مستقبل الزراعة المستدامة من خلال الإدارة الذكية للمياه",
-      cta: "اعرف المزيد",
-      ctaSecondary: "اتصل بنا"
+      title: "عد الأشجار بالذكاء الاصطناعي للزراعة الدقيقة",
+      subtitle: "حول إدارتك الزراعية مع عد دقيق وآلي للأشجار باستخدام رؤية الكمبيوتر المتقدمة",
+      cta: "جرب العرض التوضيحي",
+      ctaSecondary: "تحميل التطبيق"
     },
     about: {
-      title: "حول مشروعنا",
-      description: "نحن نطور حلولاً مبتكرة لمعالجة تحديات المياه في الزراعة. يركز مشروعنا على ممارسات إدارة المياه المستدامة التي يمكن أن تساعد المزارعين على تحسين استخدامهم للمياه مع الحفاظ على أو زيادة إنتاجية المحاصيل."
+      title: "حول TreeCount AI",
+      description: "لقد طورنا حلاً مبتكرًا يعمل بالذكاء الاصطناعي يُحدث ثورة في كيفية عد وإدارة المزارعين والمهنيين الزراعيين للأشجار. باستخدام رؤية الكمبيوتر المتطورة والتعلم الآلي، توفر منصتنا عدًا دقيقًا للأشجار في ثوانٍ، مما يساعد على تحسين تخصيص الموارد ومراقبة صحة الغابات وتحسين التخطيط الزراعي."
     },
     features: {
       title: "المميزات الرئيسية",
-      subtitle: "يوفر حلنا الشامل كل ما تحتاجه لإحداث ثورة في إدارة المياه الزراعية",
+      subtitle: "تقنية قوية لأتمتة وتحسين سير عمل إدارة الأشجار",
       feature1: {
-        title: "إدارة ذكية للمياه",
-        description: "تقنية متقدمة لمراقبة وتحسين استخدام المياه في الوقت الفعلي"
+        title: "كشف بالذكاء الاصطناعي",
+        description: "خوارزميات رؤية كمبيوتر متقدمة تحدد وتعد الأشجار بدقة من الصور الجوية والأرضية"
       },
       feature2: {
-        title: "حلول مستدامة",
-        description: "نهج صديق للبيئة للحفاظ على المياه الزراعية"
+        title: "تحليل في الوقت الفعلي",
+        description: "احصل على نتائج فورية مع محرك المعالجة السريع الذي يتعامل مع مناطق زراعية واسعة النطاق"
       },
       feature3: {
-        title: "رؤى مبنية على البيانات",
-        description: "تحليلات شاملة لمساعدة المزارعين على اتخاذ قرارات مستنيرة"
+        title: "تقارير مفصلة",
+        description: "تحليلات شاملة مع خرائط كثافة الأشجار ومؤشرات الصحة وتتبع النمو"
       },
       feature4: {
-        title: "فعال من حيث التكلفة",
-        description: "تقليل تكاليف المياه مع تحسين الإنتاجية الزراعية"
+        title: "وصول متعدد المنصات",
+        description: "الوصول إلى بياناتك في أي مكان مع منصة الويب وتطبيق الجوال"
       }
     },
+    mobileApp: {
+      title: "تطبيق الجوال للعد أثناء التنقل",
+      subtitle: "خذ TreeCount AI معك أينما ذهبت",
+      description: "يجلب تطبيقنا للجوال قوة عد الأشجار بالذكاء الاصطناعي إلى هاتفك الذكي. التقط الصور مباشرة من جهازك، احصل على عدد فوري، ومزامنة بياناتك بسلاسة مع السحابة.",
+      feature1: "📱 التقط الصور بكاميرا هاتفك",
+      feature2: "🚀 معالجة فورية على الجهاز",
+      feature3: "☁️ مزامنة سحابية لجميع بياناتك",
+      feature4: "📊 عرض التقارير والتحليلات أثناء التنقل",
+      downloadButton: "تحميل لنظامي iOS و Android",
+      comingSoon: "قريبًا"
+    },
+    demo: {
+      title: "اختبر TreeCount AI أثناء العمل",
+      subtitle: "جرب عرضنا التوضيحي التفاعلي",
+      description: "شاهد كيف تعمل تقنية الذكاء الاصطناعي لدينا مع بيانات زراعية حقيقية. قم بتحميل صورك الخاصة أو جرب مجموعات البيانات النموذجية لتجربة دقة وسرعة TreeCount AI.",
+      button: "إطلاق العرض التوضيحي",
+      features: "ما يمكنك فعله في العرض التوضيحي:",
+      demoFeature1: "تحميل صور جوية أو على مستوى الأرض",
+      demoFeature2: "عرض كشف الأشجار بالذكاء الاصطناعي في الوقت الفعلي",
+      demoFeature3: "تنزيل تقارير عد مفصلة",
+      demoFeature4: "استكشاف سيناريوهات زراعية مختلفة"
+    },
     cta: {
-      title: "هل أنت مستعد لتحويل إدارة المياه الزراعية؟",
-      description: "انضم إلينا في إحداث ثورة في ممارسات الزراعة المستدامة",
+      title: "هل أنت مستعد لإحداث ثورة في إدارة الأشجار؟",
+      description: "انضم إلى مئات المزارعين والمهنيين الزراعيين الذين يستخدمون TreeCount AI",
       button: "ابدأ الآن"
     },
     footer: {
       copyright: "جميع الحقوق محفوظة.",
-      slogan: "الابتكار من أجل مستقبل مستدام"
+      slogan: "الزراعة الدقيقة من خلال ابتكار الذكاء الاصطناعي"
     }
   }
 };

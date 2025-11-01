@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-              Water in Agriculture Hackathon
+              AI-Powered Tree Counting
             </span>
           </div>
           
@@ -38,20 +38,20 @@ export default function Hero() {
 
           <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">50%</div>
-              <div className="text-sm text-muted-foreground">Water Savings</div>
+              <div className="text-4xl font-bold text-primary mb-2">99%</div>
+              <div className="text-sm text-muted-foreground">Accuracy</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">30%</div>
-              <div className="text-sm text-muted-foreground">Yield Increase</div>
+              <div className="text-4xl font-bold text-primary mb-2">10x</div>
+              <div className="text-sm text-muted-foreground">Faster</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">100+</div>
-              <div className="text-sm text-muted-foreground">Farms</div>
+              <div className="text-4xl font-bold text-primary mb-2">500+</div>
+              <div className="text-sm text-muted-foreground">Users</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">24/7</div>
-              <div className="text-sm text-muted-foreground">Monitoring</div>
+              <div className="text-4xl font-bold text-primary mb-2">1M+</div>
+              <div className="text-sm text-muted-foreground">Trees Counted</div>
             </div>
           </div>
         </div>

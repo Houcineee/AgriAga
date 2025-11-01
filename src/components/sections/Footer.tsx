@@ -14,9 +14,9 @@ export default function Footer() {
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">💧</span>
+                  <span className="text-white font-bold text-lg">🌳</span>
                 </div>
-                <span className="font-bold text-xl text-foreground">AquaGrow</span>
+                <span className="font-bold text-xl text-foreground">TreeCount AI</span>
               </div>
               <p className={`text-muted-foreground mb-4 ${isRTL ? 'text-right' : ''}`}>
                 {t.footer.slogan}
@@ -39,6 +39,16 @@ export default function Footer() {
                 <li>
                   <a href="#features" className="text-muted-foreground hover:text-primary transition-colors">
                     {t.nav.features}
+                  </a>
+                </li>
+                <li>
+                  <a href="#mobile-app" className="text-muted-foreground hover:text-primary transition-colors">
+                    {t.nav.mobileApp}
+                  </a>
+                </li>
+                <li>
+                  <a href="#demo" className="text-muted-foreground hover:text-primary transition-colors">
+                    {t.nav.demo}
                   </a>
                 </li>
                 <li>
@@ -73,7 +83,7 @@ export default function Footer() {
           
           <div className="border-t border-border pt-8">
             <p className={`text-center text-muted-foreground text-sm ${isRTL ? 'text-right' : ''}`}>
-              © {new Date().getFullYear()} AquaGrow. {t.footer.copyright}
+              © {new Date().getFullYear()} TreeCount AI. {t.footer.copyright}
             </p>
           </div>
         </div>
