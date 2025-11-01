@@ -18,7 +18,7 @@ export default function Hero() {
   const titleComponent = (
     <>
       <div className="mb-6">
-        <span className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 rounded-full text-sm font-medium shadow-lg shadow-emerald-500/10">
+        <span className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 border border-emerald-500/20 text-emerald-600 rounded-full text-sm font-medium shadow-lg shadow-emerald-500/10">
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
@@ -27,19 +27,11 @@ export default function Hero() {
         </span>
       </div>
 
-      <h1
-        className={`text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground ${
-          isRTL ? 'text-right' : ''
-        }`}
-      >
+      <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground text-center">
         {t.hero.title}
       </h1>
 
-      <p
-        className={`text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto ${
-          isRTL ? 'text-right' : ''
-        }`}
-      >
+      <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto text-center">
         {t.hero.subtitle}
       </p>
 
@@ -50,46 +42,14 @@ export default function Hero() {
   return (
     <section id="home" className="pt-32 pb-20 px-4">
       <ContainerScroll titleComponent={titleComponent}>
-        {/* Graph area inside the Card - simple SVG graphs */}
+        {/* Dashboard image */}
         <div className="h-full w-full flex flex-col md:flex-row items-stretch gap-4 p-6">
           <div className="flex-1 flex items-center justify-center">
-            <svg
-              viewBox="0 0 400 260"
-              className="max-w-full h-72 md:h-96"
-              preserveAspectRatio="xMidYMid meet"
-            >
-              <defs>
-                <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="0%" stopColor="#60a5fa" stopOpacity="0.8" />
-                  <stop offset="100%" stopColor="#60a5fa" stopOpacity="0.05" />
-                </linearGradient>
-              </defs>
-              <rect width="100%" height="100%" fill="transparent" />
-              {/* Axes */}
-              <path d="M40 20 L40 220 L380 220" stroke="#9ca3af" strokeWidth="1" fill="none" />
-              {/* Area chart */}
-              <path
-                d="M40 180 C100 140 140 80 200 100 C260 120 300 60 360 80 L360 220 L40 220 Z"
-                fill="url(#g1)"
-                stroke="#60a5fa"
-                strokeWidth="2"
-              />
-              {/* Line chart overlay */}
-              <path
-                d="M40 180 C100 140 140 80 200 100 C260 120 300 60 360 80"
-                stroke="#2563eb"
-                strokeWidth="3"
-                fill="none"
-                strokeLinecap="round"
-              />
-              {/* Simple bars */}
-              <g fill="#10b981">
-                <rect x="60" y="140" width="12" height="80" rx="2" />
-                <rect x="90" y="110" width="12" height="110" rx="2" />
-                <rect x="120" y="90" width="12" height="130" rx="2" />
-                <rect x="150" y="120" width="12" height="100" rx="2" />
-              </g>
-            </svg>
+            <img 
+              src="/dash.jfif" 
+              alt="AgriAga Dashboard Analytics"
+              className="max-w-full h-auto rounded-lg shadow-lg object-contain"
+            />
           </div>
 
           <div className="w-full md:w-1/3 flex flex-col justify-center gap-4">
@@ -219,7 +179,7 @@ export const Card = ({
       }}
       className="max-w-5xl -mt-12 mx-auto h-[30rem] md:h-[40rem] w-full border-4 border-[#6C6C6C] p-2 md:p-6 bg-[#222222] rounded-[30px] shadow-2xl"
     >
-      <div className=" h-full w-full  overflow-hidden rounded-2xl bg-gray-100 dark:bg-zinc-900 md:rounded-2xl md:p-4 ">
+      <div className=" h-full w-full  overflow-hidden rounded-2xl bg-gray-100 md:rounded-2xl md:p-4 ">
         {children}
       </div>
     </motion.div>

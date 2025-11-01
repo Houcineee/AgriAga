@@ -10,8 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AgriAga - Smart Tree Inventory & Orchard Management",
-  description: "Optimize your agricultural operations with AI-powered tree counting and orchard monitoring for sustainable crop management",
+  title: "AgriAga - AI-Powered Precision Agriculture Platform",
+  description: "Transform your orchard operations with cutting-edge computer vision technology for automated tree counting, health monitoring, and data-driven crop management",
+  icons: {
+    icon: "/tom (1).png",
+    apple: "/tom (1).png",
+  },
 };
 
 export default function RootLayout({
@@ -20,8 +24,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+    <html lang="en" className="light" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/tom (1).png" type="image/png" />
+        <link rel="apple-touch-icon" href="/tom (1).png" />
+      </head>
+      <body className={`${inter.variable} antialiased`} suppressHydrationWarning>
         <LanguageProvider>
           {children}
         </LanguageProvider>

@@ -16,16 +16,16 @@ export default function MobileApp() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 place-items-center">
             <div className={isRTL ? 'md:order-2' : ''}>
-              <h2 className={`text-4xl md:text-5xl font-bold text-foreground ${isRTL ? 'text-right' : 'text-center'}`}>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground text-center">
                 {t.mobileApp.title}
               </h2>
-              <div className={`${isRTL ? 'ml-auto' : 'mx-auto'} h-1 w-16 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full my-4`} />
+              <div className="mx-auto h-1 w-16 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full my-4" />
               
-              <p className={`text-xl text-foreground/80 font-medium mb-4 ${isRTL ? 'text-right' : 'text-center'}`}>
+              <p className="text-xl text-foreground/80 font-medium mb-4 text-center">
                 {t.mobileApp.subtitle}
               </p>
               
-              <p className={`text-muted-foreground leading-relaxed md:text-lg mb-8 ${isRTL ? 'text-right' : 'text-center'}`}>
+              <p className="text-muted-foreground leading-relaxed md:text-lg mb-8 text-center">
                 {t.mobileApp.description}
               </p>
 
@@ -41,7 +41,7 @@ export default function MobileApp() {
                       {/* Sophisticated glow bullet */}
                       <span className="relative inline-flex items-center justify-center w-9 h-9">
                         <span className="absolute inline-flex w-full h-full rounded-full bg-gradient-to-br from-emerald-400/30 to-teal-500/30 blur-md opacity-70" />
-                        <span className="relative inline-flex items-center justify-center w-9 h-9 rounded-full ring-1 ring-emerald-400/50 bg-white/60 dark:bg-neutral-900/40">
+                        <span className="relative inline-flex items-center justify-center w-9 h-9 rounded-full ring-1 ring-emerald-400/50 bg-white/60">
                           <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.8)]" />
                         </span>
                       </span>

@@ -76,21 +76,11 @@ export default function Features() {
     <section id="features" className="py-20 px-4">
       <div ref={ref} className={`container mx-auto transition-all duration-1000 ${isVisible ? 'animate-on-scroll' : 'opacity-0'}`}>
         <div className="max-w-7xl mx-auto">
-          <h2
-            className={cn(
-              'text-4xl md:text-5xl font-bold mb-4 text-center text-foreground',
-              isRTL && 'text-right',
-            )}
-          >
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-foreground">
             {t.features.title}
           </h2>
 
-          <p
-            className={cn(
-              'text-center text-muted-foreground mb-16 max-w-2xl mx-auto',
-              isRTL && 'text-right',
-            )}
-          >
+          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
             {t.features.subtitle}
           </p>
 
@@ -114,18 +104,18 @@ function FeaturesGrid({ features }: { features: FeatureItem[] }) {
             'w-full sm:w-[360px] md:w-[420px] lg:w-[460px] min-h-[300px]'
           )}
         >
-          <div className="flex h-full flex-col items-center text-center rounded-xl p-8 bg-white/85 dark:bg-neutral-900/60 ring-1 ring-emerald-300/25 dark:ring-emerald-500/20 shadow-md">
+          <div className="flex h-full flex-col items-center text-center rounded-xl p-8 bg-white/85 ring-1 ring-emerald-300/25 shadow-md">
             <div className="mb-5 flex items-center justify-center">
               <div className="flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-br from-emerald-400/30 to-teal-500/30 ring-1 ring-emerald-400/40">
-                <div className="[&>svg]:w-7 [&>svg]:h-7 text-emerald-600 dark:text-emerald-400">
+                <div className="[&>svg]:w-7 [&>svg]:h-7 text-emerald-600">
                   {feature.icon}
                 </div>
               </div>
             </div>
-            <div className="text-xl font-semibold mb-2 text-neutral-900 dark:text-neutral-100">
+            <div className="text-xl font-semibold mb-2 text-neutral-900">
               {feature.title}
             </div>
-            <p className="text-sm leading-relaxed text-neutral-700 dark:text-neutral-300 min-h-[56px]">
+            <p className="text-sm leading-relaxed text-neutral-700 min-h-[56px]">
               {feature.description}
             </p>
             <div className="mt-6 h-px w-16 bg-gradient-to-r from-emerald-400/50 to-teal-500/50 rounded-full" />

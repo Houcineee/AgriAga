@@ -12,7 +12,7 @@ export default function Demo() {
 
   const handleDemoClick = () => {
     // Redirect to demo website - you can change this URL
-    window.open('https://demo.agriaga.example.com', '_blank', 'noopener,noreferrer');
+    window.open('https://v5youth.vercel.app', '_blank', 'noopener,noreferrer');
   };
 
   const handleGetStartedClick = () => {
@@ -33,20 +33,20 @@ export default function Demo() {
             {/* Call to action label */}
             <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 rounded-full bg-emerald-500/10 border border-emerald-500/20">
               <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span className="text-sm font-medium text-emerald-700 dark:text-emerald-400">
+              <span className="text-sm font-medium text-emerald-700">
                 {t.cta.title}
               </span>
             </div>
 
-            <h2 className={`text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground ${isRTL ? 'text-right' : 'text-center'}`}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground text-center">
               {t.demo.title}
             </h2>
             
-            <p className={`text-xl md:text-2xl text-foreground/80 font-medium mb-4 ${isRTL ? 'text-right' : 'text-center'}`}>
+            <p className="text-xl md:text-2xl text-foreground/80 font-medium mb-4 text-center">
               {t.demo.subtitle}
             </p>
             
-            <p className={`text-muted-foreground leading-relaxed md:text-lg mb-10 max-w-2xl mx-auto ${isRTL ? 'text-right' : 'text-center'}`}>
+            <p className="text-muted-foreground leading-relaxed md:text-lg mb-10 max-w-2xl mx-auto text-center">
               {t.demo.description}
             </p>
 
@@ -67,7 +67,7 @@ export default function Demo() {
                 size="lg"
                 variant="outline"
                 onClick={handleDemoClick}
-                className="group text-base md:text-lg px-8 md:px-10 py-6 md:py-7 border-2 border-emerald-600/30 hover:border-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-950/30 transition-all duration-300"
+                className="group text-base md:text-lg px-8 md:px-10 py-6 md:py-7 border-2 border-emerald-600/30 hover:border-emerald-600 hover:bg-emerald-50 transition-all duration-300"
               >
                 <IconRocket className="w-5 h-5" />
                 {t.demo.button}
