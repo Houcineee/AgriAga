@@ -1,6 +1,6 @@
 'use client';
 
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from '@/i18n/routing';
 import { locales, localeNames, type Locale } from '@/i18n/config';
 import { Button } from '@/components/ui/button';
 import { Globe } from 'lucide-react';
@@ -14,10 +14,8 @@ export function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
   const pathname = usePathname();
 
   const switchLanguage = (newLocale: Locale) => {
-    // Remove the current locale from the pathname
-    const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}/, '');
-    // Navigate to the new locale path
-    router.push(`/${newLocale}${pathWithoutLocale}`);
+    // Navigate using the internationalized router
+    router.replace(pathname, { locale: newLocale });
   };
 
   return (
