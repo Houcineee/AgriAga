@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-              AI-Powered Tree Counting
+              Smart Orchard Management
             </span>
           </div>
           

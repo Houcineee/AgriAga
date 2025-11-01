@@ -9,65 +9,65 @@ export const translations = {
       contact: "Contact"
     },
     hero: {
-      title: "AI-Powered Tree Counting for Precision Agriculture",
-      subtitle: "Transform your agricultural management with accurate, automated tree counting using advanced computer vision",
+      title: "Smart Tree Inventory & Orchard Management",
+      subtitle: "Optimize your agricultural operations with AI-powered tree counting and orchard monitoring for sustainable crop management",
       cta: "Try Demo",
-      ctaSecondary: "Download App"
+      ctaSecondary: "Get Mobile App"
     },
     about: {
-      title: "About TreeCount AI",
-      description: "We've developed an innovative AI-powered solution that revolutionizes how farmers and agricultural professionals count and manage trees. Using cutting-edge computer vision and machine learning, our platform delivers accurate tree counts in seconds, helping optimize resource allocation, monitor forest health, and improve agricultural planning."
+      title: "About AgriYaga",
+      description: "AgriYaga is an innovative precision agriculture solution that helps farmers and orchard managers efficiently count, monitor, and manage their tree inventory. Using advanced computer vision technology, our platform provides accurate tree counts and health assessments, enabling better crop planning, resource optimization, and yield forecasting for sustainable agricultural practices."
     },
     features: {
       title: "Key Features",
-      subtitle: "Powerful technology to automate and enhance your tree management workflow",
+      subtitle: "Complete orchard management tools to enhance your agricultural productivity",
       feature1: {
-        title: "AI-Powered Detection",
-        description: "Advanced computer vision algorithms accurately identify and count trees from aerial and ground imagery"
+        title: "Automated Tree Counting",
+        description: "Quickly inventory your orchards with AI-powered detection from aerial imagery and satellite data"
       },
       feature2: {
-        title: "Real-Time Analysis",
-        description: "Get instant results with our fast processing engine that handles large-scale agricultural areas"
+        title: "Real-Time Monitoring",
+        description: "Track tree health, growth patterns, and crop development throughout the growing season"
       },
       feature3: {
-        title: "Detailed Reports",
-        description: "Comprehensive analytics with tree density maps, health indicators, and growth tracking"
+        title: "Yield Analysis & Reports",
+        description: "Generate comprehensive harvest forecasts and productivity reports for better planning"
       },
       feature4: {
-        title: "Multi-Platform Access",
-        description: "Access your data anywhere with our web platform and mobile application"
+        title: "Multi-Device Access",
+        description: "Manage your orchards from anywhere with web dashboard and mobile field applications"
       }
     },
     mobileApp: {
-      title: "Mobile App for On-the-Go Counting",
-      subtitle: "Take TreeCount AI with you wherever you go",
-      description: "Our mobile application brings the power of AI tree counting to your smartphone. Capture images directly from your device, get instant counts, and sync your data seamlessly with the cloud.",
-      feature1: "📱 Capture images with your phone camera",
-      feature2: "🚀 Instant on-device processing",
-      feature3: "☁️ Cloud sync for all your data",
-      feature4: "📊 View reports and analytics on the go",
+      title: "Field-Ready Mobile Application",
+      subtitle: "Bring orchard management to your fingertips",
+      description: "Our mobile app empowers agricultural professionals to conduct field surveys, count trees, and assess crop health directly from their smartphones. Capture field data, sync with cloud storage, and access real-time insights while working on-site.",
+      feature1: "📱 Capture field images with device camera",
+      feature2: "🚀 On-device processing for offline use",
+      feature3: "☁️ Automatic cloud synchronization",
+      feature4: "📊 Access reports and analytics in the field",
       downloadButton: "Download for iOS & Android",
       comingSoon: "Coming Soon"
     },
     demo: {
-      title: "Experience TreeCount AI in Action",
-      subtitle: "Try our interactive demo",
-      description: "See how our AI technology works with real agricultural data. Upload your own images or try our sample datasets to experience the accuracy and speed of TreeCount AI.",
+      title: "Experience AgriYaga in Action",
+      subtitle: "Try our interactive demonstration",
+      description: "See how our precision agriculture technology works with real orchard data. Upload your aerial images or explore our sample orchards to experience accurate tree counting and crop analysis.",
       button: "Launch Demo",
       features: "What you can do in the demo:",
-      demoFeature1: "Upload aerial or ground-level images",
-      demoFeature2: "View AI-powered tree detection in real-time",
-      demoFeature3: "Download detailed count reports",
-      demoFeature4: "Explore different agricultural scenarios"
+      demoFeature1: "Upload aerial or ground imagery",
+      demoFeature2: "View automated tree detection",
+      demoFeature3: "Download inventory reports",
+      demoFeature4: "Explore different crop scenarios"
     },
     cta: {
-      title: "Ready to Revolutionize Your Tree Management?",
-      description: "Join hundreds of farmers and agricultural professionals using TreeCount AI",
+      title: "Ready to Transform Your Orchard Management?",
+      description: "Join agricultural professionals using AgriYaga for smarter crop planning",
       button: "Get Started"
     },
     footer: {
       copyright: "All rights reserved.",
-      slogan: "Precision agriculture through AI innovation"
+      slogan: "Precision agriculture for sustainable farming"
     }
   },
   fr: {
@@ -80,65 +80,65 @@ export const translations = {
       contact: "Contact"
     },
     hero: {
-      title: "Comptage d'Arbres par IA pour l'Agriculture de Précision",
-      subtitle: "Transformez votre gestion agricole avec un comptage d'arbres précis et automatisé grâce à la vision par ordinateur avancée",
+      title: "Inventaire Intelligent des Arbres & Gestion des Vergers",
+      subtitle: "Optimisez vos opérations agricoles avec comptage d'arbres par IA et surveillance des vergers pour une gestion durable des cultures",
       cta: "Essayer la Démo",
-      ctaSecondary: "Télécharger l'App"
+      ctaSecondary: "Obtenir l'Application"
     },
     about: {
-      title: "À propos de TreeCount AI",
-      description: "Nous avons développé une solution innovante alimentée par l'IA qui révolutionne la façon dont les agriculteurs et les professionnels de l'agriculture comptent et gèrent les arbres. Utilisant la vision par ordinateur et l'apprentissage automatique de pointe, notre plateforme fournit des comptages d'arbres précis en quelques secondes, aidant à optimiser l'allocation des ressources, surveiller la santé des forêts et améliorer la planification agricole."
+      title: "À propos d'AgriYaga",
+      description: "AgriYaga est une solution innovante d'agriculture de précision qui aide les agriculteurs et gestionnaires de vergers à compter, surveiller et gérer efficacement leur inventaire arboricole. Grâce à une technologie avancée de vision par ordinateur, notre plateforme fournit des comptages précis et des évaluations sanitaires, permettant une meilleure planification des cultures, l'optimisation des ressources et la prévision des rendements pour des pratiques agricoles durables."
     },
     features: {
       title: "Caractéristiques principales",
-      subtitle: "Technologie puissante pour automatiser et améliorer votre flux de travail de gestion des arbres",
+      subtitle: "Outils complets de gestion des vergers pour améliorer votre productivité agricole",
       feature1: {
-        title: "Détection par IA",
-        description: "Des algorithmes avancés de vision par ordinateur identifient et comptent avec précision les arbres à partir d'images aériennes et terrestres"
+        title: "Comptage Automatisé des Arbres",
+        description: "Inventoriez rapidement vos vergers avec détection par IA à partir d'imagerie aérienne et données satellitaires"
       },
       feature2: {
-        title: "Analyse en temps réel",
-        description: "Obtenez des résultats instantanés avec notre moteur de traitement rapide qui gère de vastes zones agricoles"
+        title: "Surveillance en Temps Réel",
+        description: "Suivez la santé des arbres, les schémas de croissance et le développement des cultures tout au long de la saison"
       },
       feature3: {
-        title: "Rapports détaillés",
-        description: "Analyses complètes avec cartes de densité d'arbres, indicateurs de santé et suivi de croissance"
+        title: "Analyse de Rendement & Rapports",
+        description: "Générez des prévisions de récolte complètes et des rapports de productivité pour une meilleure planification"
       },
       feature4: {
-        title: "Accès multi-plateforme",
-        description: "Accédez à vos données partout avec notre plateforme web et notre application mobile"
+        title: "Accès Multi-Appareils",
+        description: "Gérez vos vergers de partout avec tableau de bord web et applications mobiles de terrain"
       }
     },
     mobileApp: {
-      title: "Application Mobile pour Compter en Déplacement",
-      subtitle: "Emportez TreeCount AI partout avec vous",
-      description: "Notre application mobile apporte la puissance du comptage d'arbres par IA à votre smartphone. Capturez des images directement depuis votre appareil, obtenez des comptages instantanés et synchronisez vos données de manière transparente avec le cloud.",
-      feature1: "📱 Capturez des images avec votre caméra",
-      feature2: "🚀 Traitement instantané sur l'appareil",
-      feature3: "☁️ Synchronisation cloud de toutes vos données",
-      feature4: "📊 Consultez rapports et analyses en déplacement",
+      title: "Application Mobile pour le Terrain",
+      subtitle: "La gestion des vergers à portée de main",
+      description: "Notre application mobile permet aux professionnels agricoles de réaliser des enquêtes de terrain, compter les arbres et évaluer la santé des cultures directement depuis leur smartphone. Capturez des données de terrain, synchronisez avec le cloud et accédez aux informations en temps réel sur site.",
+      feature1: "📱 Capturez des images de terrain avec votre appareil",
+      feature2: "🚀 Traitement sur appareil pour utilisation hors ligne",
+      feature3: "☁️ Synchronisation cloud automatique",
+      feature4: "📊 Accédez aux rapports et analyses sur le terrain",
       downloadButton: "Télécharger pour iOS et Android",
       comingSoon: "Bientôt disponible"
     },
     demo: {
-      title: "Découvrez TreeCount AI en Action",
-      subtitle: "Essayez notre démo interactive",
-      description: "Découvrez comment notre technologie IA fonctionne avec de vraies données agricoles. Téléchargez vos propres images ou essayez nos ensembles de données d'exemple pour découvrir la précision et la rapidité de TreeCount AI.",
+      title: "Découvrez AgriYaga en Action",
+      subtitle: "Essayez notre démonstration interactive",
+      description: "Découvrez comment notre technologie d'agriculture de précision fonctionne avec de vraies données de vergers. Téléchargez vos images aériennes ou explorez nos vergers exemples pour expérimenter le comptage précis d'arbres et l'analyse des cultures.",
       button: "Lancer la Démo",
       features: "Ce que vous pouvez faire dans la démo:",
-      demoFeature1: "Télécharger des images aériennes ou au sol",
-      demoFeature2: "Voir la détection d'arbres par IA en temps réel",
-      demoFeature3: "Télécharger des rapports de comptage détaillés",
-      demoFeature4: "Explorer différents scénarios agricoles"
+      demoFeature1: "Télécharger des images aériennes ou terrestres",
+      demoFeature2: "Voir la détection automatisée des arbres",
+      demoFeature3: "Télécharger des rapports d'inventaire",
+      demoFeature4: "Explorer différents scénarios de cultures"
     },
     cta: {
-      title: "Prêt à révolutionner votre gestion des arbres?",
-      description: "Rejoignez des centaines d'agriculteurs et de professionnels de l'agriculture utilisant TreeCount AI",
+      title: "Prêt à Transformer la Gestion de Vos Vergers?",
+      description: "Rejoignez les professionnels agricoles utilisant AgriYaga pour une planification des cultures plus intelligente",
       button: "Commencer"
     },
     footer: {
       copyright: "Tous droits réservés.",
-      slogan: "Agriculture de précision par l'innovation IA"
+      slogan: "Agriculture de précision pour une agriculture durable"
     }
   },
   ar: {
@@ -151,65 +151,65 @@ export const translations = {
       contact: "اتصل بنا"
     },
     hero: {
-      title: "عد الأشجار بالذكاء الاصطناعي للزراعة الدقيقة",
-      subtitle: "حول إدارتك الزراعية مع عد دقيق وآلي للأشجار باستخدام رؤية الكمبيوتر المتقدمة",
+      title: "جرد ذكي للأشجار وإدارة البساتين",
+      subtitle: "حسّن عملياتك الزراعية مع عد الأشجار بالذكاء الاصطناعي ومراقبة البساتين لإدارة مستدامة للمحاصيل",
       cta: "جرب العرض التوضيحي",
-      ctaSecondary: "تحميل التطبيق"
+      ctaSecondary: "احصل على التطبيق"
     },
     about: {
-      title: "حول TreeCount AI",
-      description: "لقد طورنا حلاً مبتكرًا يعمل بالذكاء الاصطناعي يُحدث ثورة في كيفية عد وإدارة المزارعين والمهنيين الزراعيين للأشجار. باستخدام رؤية الكمبيوتر المتطورة والتعلم الآلي، توفر منصتنا عدًا دقيقًا للأشجار في ثوانٍ، مما يساعد على تحسين تخصيص الموارد ومراقبة صحة الغابات وتحسين التخطيط الزراعي."
+      title: "حول AgriYaga",
+      description: "AgriYaga هو حل مبتكر للزراعة الدقيقة يساعد المزارعين ومديري البساتين على عد ومراقبة وإدارة مخزون الأشجار بكفاءة. باستخدام تقنية الرؤية الحاسوبية المتقدمة، توفر منصتنا عدًا دقيقًا للأشجار وتقييمات صحية، مما يتيح تخطيطًا أفضل للمحاصيل وتحسين الموارد والتنبؤ بالإنتاجية لممارسات زراعية مستدامة."
     },
     features: {
       title: "المميزات الرئيسية",
-      subtitle: "تقنية قوية لأتمتة وتحسين سير عمل إدارة الأشجار",
+      subtitle: "أدوات شاملة لإدارة البساتين لتعزيز إنتاجيتك الزراعية",
       feature1: {
-        title: "كشف بالذكاء الاصطناعي",
-        description: "خوارزميات رؤية كمبيوتر متقدمة تحدد وتعد الأشجار بدقة من الصور الجوية والأرضية"
+        title: "عد الأشجار الآلي",
+        description: "جرد بساتينك بسرعة مع الكشف بالذكاء الاصطناعي من الصور الجوية وبيانات الأقمار الصناعية"
       },
       feature2: {
-        title: "تحليل في الوقت الفعلي",
-        description: "احصل على نتائج فورية مع محرك المعالجة السريع الذي يتعامل مع مناطق زراعية واسعة النطاق"
+        title: "مراقبة في الوقت الفعلي",
+        description: "تتبع صحة الأشجار وأنماط النمو وتطور المحاصيل طوال موسم النمو"
       },
       feature3: {
-        title: "تقارير مفصلة",
-        description: "تحليلات شاملة مع خرائط كثافة الأشجار ومؤشرات الصحة وتتبع النمو"
+        title: "تحليل الإنتاجية والتقارير",
+        description: "إنشاء توقعات شاملة للحصاد وتقارير الإنتاجية لتخطيط أفضل"
       },
       feature4: {
-        title: "وصول متعدد المنصات",
-        description: "الوصول إلى بياناتك في أي مكان مع منصة الويب وتطبيق الجوال"
+        title: "وصول متعدد الأجهزة",
+        description: "إدارة بساتينك من أي مكان مع لوحة تحكم الويب وتطبيقات الهاتف المحمول الميدانية"
       }
     },
     mobileApp: {
-      title: "تطبيق الجوال للعد أثناء التنقل",
-      subtitle: "خذ TreeCount AI معك أينما ذهبت",
-      description: "يجلب تطبيقنا للجوال قوة عد الأشجار بالذكاء الاصطناعي إلى هاتفك الذكي. التقط الصور مباشرة من جهازك، احصل على عدد فوري، ومزامنة بياناتك بسلاسة مع السحابة.",
-      feature1: "📱 التقط الصور بكاميرا هاتفك",
-      feature2: "🚀 معالجة فورية على الجهاز",
-      feature3: "☁️ مزامنة سحابية لجميع بياناتك",
-      feature4: "📊 عرض التقارير والتحليلات أثناء التنقل",
+      title: "تطبيق الجوال الجاهز للميدان",
+      subtitle: "إدارة البساتين في متناول يدك",
+      description: "يمكّن تطبيقنا المحترفين الزراعيين من إجراء مسوحات ميدانية وعد الأشجار وتقييم صحة المحاصيل مباشرة من هواتفهم الذكية. التقط بيانات الميدان، زامن مع التخزين السحابي، واحصل على رؤى في الوقت الفعلي أثناء العمل في الموقع.",
+      feature1: "📱 التقاط صور ميدانية بكاميرا الجهاز",
+      feature2: "🚀 معالجة على الجهاز للاستخدام دون اتصال",
+      feature3: "☁️ مزامنة سحابية تلقائية",
+      feature4: "📊 الوصول إلى التقارير والتحليلات في الميدان",
       downloadButton: "تحميل لنظامي iOS و Android",
       comingSoon: "قريبًا"
     },
     demo: {
-      title: "اختبر TreeCount AI أثناء العمل",
+      title: "اختبر AgriYaga أثناء العمل",
       subtitle: "جرب عرضنا التوضيحي التفاعلي",
-      description: "شاهد كيف تعمل تقنية الذكاء الاصطناعي لدينا مع بيانات زراعية حقيقية. قم بتحميل صورك الخاصة أو جرب مجموعات البيانات النموذجية لتجربة دقة وسرعة TreeCount AI.",
+      description: "شاهد كيف تعمل تقنية الزراعة الدقيقة لدينا مع بيانات بساتين حقيقية. قم بتحميل صورك الجوية أو استكشف بساتيننا النموذجية لتجربة عد الأشجار الدقيق وتحليل المحاصيل.",
       button: "إطلاق العرض التوضيحي",
       features: "ما يمكنك فعله في العرض التوضيحي:",
-      demoFeature1: "تحميل صور جوية أو على مستوى الأرض",
-      demoFeature2: "عرض كشف الأشجار بالذكاء الاصطناعي في الوقت الفعلي",
-      demoFeature3: "تنزيل تقارير عد مفصلة",
-      demoFeature4: "استكشاف سيناريوهات زراعية مختلفة"
+      demoFeature1: "تحميل صور جوية أو أرضية",
+      demoFeature2: "عرض الكشف الآلي عن الأشجار",
+      demoFeature3: "تنزيل تقارير الجرد",
+      demoFeature4: "استكشاف سيناريوهات مختلفة للمحاصيل"
     },
     cta: {
-      title: "هل أنت مستعد لإحداث ثورة في إدارة الأشجار؟",
-      description: "انضم إلى مئات المزارعين والمهنيين الزراعيين الذين يستخدمون TreeCount AI",
+      title: "هل أنت مستعد لتحويل إدارة بساتينك؟",
+      description: "انضم إلى المحترفين الزراعيين الذين يستخدمون AgriYaga لتخطيط أذكى للمحاصيل",
       button: "ابدأ الآن"
     },
     footer: {
       copyright: "جميع الحقوق محفوظة.",
-      slogan: "الزراعة الدقيقة من خلال ابتكار الذكاء الاصطناعي"
+      slogan: "الزراعة الدقيقة للزراعة المستدامة"
     }
   }
 };

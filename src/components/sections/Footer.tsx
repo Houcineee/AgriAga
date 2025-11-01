@@ -16,7 +16,7 @@ export default function Footer() {
                 <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-lg">🌳</span>
                 </div>
-                <span className="font-bold text-xl text-foreground">TreeCount AI</span>
+                <span className="font-bold text-xl text-foreground">AgriYaga</span>
               </div>
               <p className={`text-muted-foreground mb-4 ${isRTL ? 'text-right' : ''}`}>
                 {t.footer.slogan}
@@ -83,7 +83,7 @@ export default function Footer() {
           
           <div className="border-t border-border pt-8">
             <p className={`text-center text-muted-foreground text-sm ${isRTL ? 'text-right' : ''}`}>
-              © {new Date().getFullYear()} TreeCount AI. {t.footer.copyright}
+              © {new Date().getFullYear()} AgriYaga. {t.footer.copyright}
             </p>
           </div>
         </div>

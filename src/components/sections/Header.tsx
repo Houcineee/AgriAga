@@ -20,7 +20,7 @@ export default function Header() {
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-lg">🌳</span>
             </div>
-            <span className="font-bold text-xl text-foreground">TreeCount AI</span>
+            <span className="font-bold text-xl text-foreground">AgriYaga</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">

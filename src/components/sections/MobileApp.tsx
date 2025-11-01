@@ -61,7 +61,7 @@ export default function MobileApp() {
                 <div className="bg-gradient-to-br from-primary/20 to-purple-500/20 rounded-3xl p-12 flex items-center justify-center">
                   <div className="text-center">
                     <Smartphone className="w-32 h-32 mx-auto mb-6 text-primary" />
-                    <p className="text-lg font-semibold text-foreground">TreeCount AI Mobile</p>
+                    <p className="text-lg font-semibold text-foreground">AgriYaga Mobile</p>
                     <p className="text-sm text-muted-foreground mt-2">Coming to iOS & Android</p>
                   </div>
                 </div>

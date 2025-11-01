@@ -10,7 +10,7 @@ export default function Demo() {
 
   const handleDemoClick = () => {
     // Redirect to demo website - you can change this URL
-    window.open('https://demo.treecount-ai.example.com', '_blank');
+    window.open('https://demo.agriyaga.example.com', '_blank');
   };
 
   return (

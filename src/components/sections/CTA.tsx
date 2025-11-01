@@ -33,7 +33,7 @@ export default function CTA() {
             <div className="p-6">
               <div className="text-4xl mb-4">📧</div>
               <h3 className="font-semibold mb-2">Email</h3>
-              <p className="text-white/80">contact@treecount-ai.com</p>
+              <p className="text-white/80">contact@agriyaga.com</p>
             </div>
             
             <div className="p-6">
@@ -45,7 +45,7 @@ export default function CTA() {
             <div className="p-6">
               <div className="text-4xl mb-4">📍</div>
               <h3 className="font-semibold mb-2">Location</h3>
-              <p className="text-white/80">AgriTech Hub, Innovation Valley</p>
+              <p className="text-white/80">AgriTech Center, Innovation Park</p>
             </div>
           </div>
         </div>

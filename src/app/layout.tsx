@@ -3,8 +3,8 @@ import "./globals.css";
 import { LanguageProvider } from "@/i18n/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "TreeCount AI - AI-Powered Tree Counting for Agriculture",
-  description: "Transform your agricultural management with accurate, automated tree counting using advanced computer vision and AI technology",
+  title: "AgriYaga - Smart Tree Inventory & Orchard Management",
+  description: "Optimize your agricultural operations with AI-powered tree counting and orchard monitoring for sustainable crop management",
 };
 
 export default function RootLayout({
