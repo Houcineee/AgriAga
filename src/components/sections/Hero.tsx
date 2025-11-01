@@ -18,11 +18,11 @@ export default function Hero() {
             </span>
           </div>
           
-          <h1 className={`text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground ${isRTL ? 'font-arabic' : ''}`}>
+          <h1 className={`text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground ${isRTL ? 'text-right' : ''}`}>
             {t.hero.title}
           </h1>
           
-          <p className={`text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto ${isRTL ? 'font-arabic' : ''}`}>
+          <p className={`text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto ${isRTL ? 'text-right' : ''}`}>
             {t.hero.subtitle}
           </p>
           

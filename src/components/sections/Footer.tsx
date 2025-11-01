@@ -18,7 +18,7 @@ export default function Footer() {
                 </div>
                 <span className="font-bold text-xl text-foreground">AquaGrow</span>
               </div>
-              <p className={`text-muted-foreground mb-4 ${isRTL ? 'font-arabic text-right' : ''}`}>
+              <p className={`text-muted-foreground mb-4 ${isRTL ? 'text-right' : ''}`}>
                 {t.footer.slogan}
               </p>
             </div>
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
           
           <div className="border-t border-border pt-8">
-            <p className={`text-center text-muted-foreground text-sm ${isRTL ? 'font-arabic' : ''}`}>
+            <p className={`text-center text-muted-foreground text-sm ${isRTL ? 'text-right' : ''}`}>
               © {new Date().getFullYear()} AquaGrow. {t.footer.copyright}
             </p>
           </div>

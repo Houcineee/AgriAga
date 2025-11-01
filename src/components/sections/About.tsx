@@ -10,12 +10,12 @@ export default function About() {
     <section id="about" className="py-20 px-4 bg-muted/30">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
-          <h2 className={`text-4xl md:text-5xl font-bold mb-8 text-center text-foreground ${isRTL ? 'font-arabic' : ''}`}>
+          <h2 className={`text-4xl md:text-5xl font-bold mb-8 text-center text-foreground ${isRTL ? 'text-right' : ''}`}>
             {t.about.title}
           </h2>
           
           <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
-            <p className={`text-lg md:text-xl text-muted-foreground leading-relaxed ${isRTL ? 'font-arabic text-right' : ''}`}>
+            <p className={`text-lg md:text-xl text-muted-foreground leading-relaxed ${isRTL ? 'text-right' : ''}`}>
               {t.about.description}
             </p>
             

@@ -18,6 +18,7 @@ export const translations = {
     },
     features: {
       title: "Key Features",
+      subtitle: "Our comprehensive solution provides everything you need to revolutionize your agricultural water management",
       feature1: {
         title: "Smart Water Management",
         description: "Advanced technology to monitor and optimize water usage in real-time"
@@ -64,6 +65,7 @@ export const translations = {
     },
     features: {
       title: "Caractéristiques principales",
+      subtitle: "Notre solution complète fournit tout ce dont vous avez besoin pour révolutionner votre gestion de l'eau agricole",
       feature1: {
         title: "Gestion intelligente de l'eau",
         description: "Technologie avancée pour surveiller et optimiser l'utilisation de l'eau en temps réel"
@@ -110,6 +112,7 @@ export const translations = {
     },
     features: {
       title: "المميزات الرئيسية",
+      subtitle: "يوفر حلنا الشامل كل ما تحتاجه لإحداث ثورة في إدارة المياه الزراعية",
       feature1: {
         title: "إدارة ذكية للمياه",
         description: "تقنية متقدمة لمراقبة وتحسين استخدام المياه في الوقت الفعلي"
